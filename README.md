@@ -21,4 +21,4 @@ This project uses a DHT22 sensor with Arduino to monitor temperature and humidit
 Built and tested using Wokwi online simulator.
 
 ## Author
-Amni
+Aman Qayyum 
