@@ -1,24 +1,25 @@
 # Arduino Weather Monitoring System
 
 ## Overview
-This project uses a DHT22 sensor with Arduino to monitor temperature and humidity. Data is displayed on a 16x2 LCD and visualized using LEDs and a buzzer alert system.
+A real-time temperature and humidity monitoring system using a DHT22 sensor. The system processes live environmental data and presents it on a 16x2 LCD with multiple display modes, along with visual and audio alerts based on threshold conditions.
 
 ## Features
-- Real-time temperature & humidity monitoring
-- LCD screen with multiple display modes
-- LED status indicators (green/yellow/red)
-- Buzzer alert for threshold conditions
-- Max/Min temperature tracking
+- Real-time temperature and humidity monitoring
+- Multi-screen LCD interface for dynamic data display
+- LED-based status indication (Green, Yellow, Red)
+- Buzzer alert for environmental threshold violations
+- Maximum and minimum temperature tracking
+- Environmental condition classification (Cold, Comfortable, Warm, Hot, Dry, Humid) based on live sensor readings
 
 ## Components Used
 - Arduino UNO
-- DHT22 sensor
+- DHT22 temperature & humidity sensor
 - 16x2 LCD display
-- LEDs (Green, Yellow, Red)
+- LED indicators (Green, Yellow, Red)
 - Buzzer
 
 ## Simulation
-Built and tested using Wokwi online simulator.
+Developed and tested using Wokwi virtual hardware simulator.
 
 ## Author
-Aman Qayyum 
+Aman Qayyum
